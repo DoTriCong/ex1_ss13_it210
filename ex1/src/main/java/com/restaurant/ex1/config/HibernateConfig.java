@@ -22,7 +22,8 @@ public class HibernateConfig {
         ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3306/pharmacydb?useSSL=false&serverTimezone=UTC");
         ds.setUsername("root");
-        ds.setPassword("password");
+        ds.setPassword("123456Â");
+        
         return ds;
     }
 
